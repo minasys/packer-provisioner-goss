@@ -51,6 +51,12 @@ There is an example packer build with goss tests in the `example/` directory.
 
 E. Camden Fisher <camden.fisher@yale.edu>
 
+## Build
+
+```
+env GOOS=linux GOARCH=amd64 go build
+```
+
 ## License
 
 ### MIT
